@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nora Aurore — jeu de couleurs de l'éditeur, Apache-2.0, publié par le registre Nora. -->
+<scheme name="Nora Aurore" version="142" parent_scheme="Darcula">
+  <attributes>
+    <option name="TEXT"><value><option name="FOREGROUND" value="e6e1f0"/><option name="BACKGROUND" value="1b1626"/></value></option>
+    <option name="DEFAULT_KEYWORD"><value><option name="FOREGROUND" value="ff8fb1"/></value></option>
+    <option name="DEFAULT_STRING"><value><option name="FOREGROUND" value="a6e3a1"/></value></option>
+    <option name="DEFAULT_NUMBER"><value><option name="FOREGROUND" value="fab387"/></value></option>
+    <option name="DEFAULT_LINE_COMMENT"><value><option name="FOREGROUND" value="7f7894"/></value></option>
+    <option name="DEFAULT_CLASS_NAME"><value><option name="FOREGROUND" value="89dceb"/></value></option>
+    <option name="DEFAULT_FUNCTION_CALL"><value><option name="FOREGROUND" value="f9e2af"/></value></option>
+    <option name="DEFAULT_OPERATION_SIGN"><value><option name="FOREGROUND" value="cdd6f4"/></value></option>
+    <option name="DEFAULT_METADATA"><value><option name="FOREGROUND" value="f5c2e7"/></value></option>
+    <option name="DEFAULT_TAG"><value><option name="FOREGROUND" value="cba6f7"/></value></option>
+    <option name="DEFAULT_ATTRIBUTE"><value><option name="FOREGROUND" value="94e2d5"/></value></option>
+    <option name="DEFAULT_INSTANCE_FIELD"><value><option name="FOREGROUND" value="b4befe"/></value></option>
+    <option name="DEFAULT_LOCAL_VARIABLE"><value><option name="FOREGROUND" value="b4befe"/></value></option>
+  </attributes>
+</scheme>

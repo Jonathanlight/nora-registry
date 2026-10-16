@@ -1,0 +1,66 @@
+{
+  "formatVersion": 1,
+  "featured": [
+    { "source": "openvsx", "id": "nadim-vscode.symfony-code-snippets" },
+    { "source": "openvsx", "id": "dracula-theme.theme-dracula" },
+    { "source": "openvsx", "id": "GitHub.github-vscode-theme" },
+    { "source": "openvsx", "id": "enkia.tokyo-night" },
+    { "source": "openvsx", "id": "sdras.night-owl" },
+    { "source": "nora", "id": "dev.nora.color-scheme.aurore" },
+    { "source": "nora", "id": "dev.nora.plugins.hello" },
+    { "source": "openvsx", "id": "xabikos.JavaScriptSnippets" },
+    { "source": "openvsx", "id": "onecentlin.laravel5-snippets" }
+  ],
+  "suggestions": [
+    { "trigger": "framework:symfony", "plugins": [
+        { "source": "openvsx", "id": "nadim-vscode.symfony-code-snippets" },
+        { "source": "openvsx", "id": "mblode.twig-language-2" },
+        { "source": "openvsx", "id": "vscode.php" }
+    ] },
+    { "trigger": "framework:laravel", "plugins": [
+        { "source": "openvsx", "id": "onecentlin.laravel5-snippets" },
+        { "source": "openvsx", "id": "vscode.php" }
+    ] },
+    { "trigger": "tool:node", "plugins": [ { "source": "openvsx", "id": "xabikos.JavaScriptSnippets" } ] },
+    { "trigger": "framework:react", "plugins": [ { "source": "openvsx", "id": "xabikos.JavaScriptSnippets" } ] },
+    { "trigger": "tool:kubectl", "plugins": [ { "source": "openvsx", "id": "ipedrazas.kubernetes-snippets" } ] }
+  ],
+  "plugins": [
+    {
+      "id": "dev.nora.color-scheme.aurore",
+      "name": "Nora Aurore",
+      "publisher": "Nora",
+      "version": "1.0.0",
+      "kind": "COLOR_SCHEME",
+      "description": "Jeu de couleurs sombre et doux pour l'éditeur, pensé pour PHP, Twig et YAML.",
+      "category": "Color Schemes",
+      "tags": ["dark", "color-scheme"],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Jonathanlight/nora-registry",
+      "sinceBuild": "2.2",
+      "download": "https://raw.githubusercontent.com/Jonathanlight/nora-registry/main/color-schemes/nora-aurore.icls",
+      "sha256": "ede8db10b9fd6cc5d86a8d00ccf21a216e9e46ebb535fd419d37e81e49ae9589",
+      "readme": "# Nora Aurore\n\nUn jeu de couleurs sombre et doux pour l'éditeur de Nora.\n\nAprès installation, choisissez-le dans **Personnaliser › Jeu de couleurs de l'éditeur**.",
+      "changelog": "## 1.0.0\n\n- Première version.",
+      "versions": ["1.0.0"]
+    },
+    {
+      "id": "dev.nora.plugins.hello",
+      "name": "Hello Nora",
+      "publisher": "Nora",
+      "version": "1.0.0",
+      "kind": "NORA_NATIVE",
+      "description": "Plugin d'exemple : une entrée de menu et un panneau Compose, chargés dans un ClassLoader isolé.",
+      "tags": ["example", "native"],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Jonathanlight/nora-registry#hello-nora",
+      "sinceBuild": "2.2",
+      "untilBuild": "2.*",
+      "download": "https://github.com/Jonathanlight/nora-registry/releases/download/hello-nora-1.0.0/hello-nora-1.0.0.zip",
+      "sha256": "051f113e7ba9a3da97b0362d761913f2cb22492436584bdd859b35b4a58249fa",
+      "readme": "# Hello Nora\n\nLe premier plugin natif de Nora, et l'exemple de référence de l'API expérimentale.\n\n- une entrée de menu ;\n- un panneau Compose interactif.\n\nIl s'exécute dans un ClassLoader isolé et ne voit que l'API publique de Nora. Le plugin est actif après un redémarrage.\n\nCode source : `plugins/hello-nora` dans le dépôt de Nora.",
+      "changelog": "## 1.0.0\n\n- Première version.",
+      "versions": ["1.0.0"]
+    }
+  ]
+}
