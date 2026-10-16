@@ -23,6 +23,7 @@
     ] },
     { "trigger": "tool:node", "plugins": [ { "source": "openvsx", "id": "xabikos.JavaScriptSnippets" } ] },
     { "trigger": "framework:react", "plugins": [ { "source": "openvsx", "id": "xabikos.JavaScriptSnippets" } ] },
+    { "trigger": "tool:docker", "plugins": [ { "source": "openvsx", "id": "vscode.docker" } ] },
     { "trigger": "tool:kubectl", "plugins": [ { "source": "openvsx", "id": "ipedrazas.kubernetes-snippets" } ] }
   ],
   "plugins": [
